@@ -19,6 +19,14 @@
     <version>4.8.1</version>
     <scope>test</scope>
 </dependency>
+
+
+<dependency>
+    <groupId>com.github.hazendaz.tomcat</groupId>
+    <artifactId>tomcat9-config</artifactId>
+    <version>9.0.36</version>
+    <type>pom</type>
+</dependency>
   </dependencies>
   
  <build>
@@ -76,11 +84,12 @@
 <configuration>
 <archive>
 <manifest>
-<mainClass>org.Test.Git.Eclipse.TestEclipse</mainClass>
+<mainClass>Affichage</mainClass>
 </manifest>
 </archive>
 </configuration>
 </plugin>
+      
 </plugins>
   </build>
  
